@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto','Montserrat', sans-serif;   
+}
+body{
+    height: 100vh;
+    background-color: rgb(224, 224, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width:340px;
+    height: 445px;
+    border-style: groove;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px grey ;
+    border: 1px;
+    
+}
+.card--imagen{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: center -112px;
+}
+img{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px ;
+}
+.card--titulo{
+    font-size: 20px ;
+    padding: 30px 10px;
+}
+.card--descripcion{
+    padding: 0 10px;
+    font-size: 15px;
+    color: rgb(109, 105, 105);
+}
+.card--descripcion--resaltar{
+    font-weight: bold;
+}
+.card--link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.card--link--caja{
+    background-color: #cbdfe9;
+    color: rgb(33, 66, 184);
+    text-decoration: none;
+    padding: 10px 80px;
+    font-size: 15px;
+    border-radius: 5px;
+}
